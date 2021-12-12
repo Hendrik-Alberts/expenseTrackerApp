@@ -1,0 +1,99 @@
+body {
+  background-color: #f1faee;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: #1d3557;
+  text-align: center;
+}
+
+h2 {
+  color: #1d3557;
+  text-align: center;
+}
+
+label {
+  color: #1d3557;
+}
+.nameinput {
+  margin: 1em 0.5em 0.5em 1em;
+}
+.inputs {
+  text-align: center;
+}
+.button {
+  margin: 1em 0.5em 0.5em 1em;
+}
+
+.button {
+  display: inline-block;
+  /* padding is size */
+  padding: 0.46em 1.6em;
+  /* border witdth and color */
+  border: 0.1em solid #264653;
+  margin: 1em 0.5em 0.5em 1em;
+  border-radius: 0.2em;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  color: #f1faee;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0, 0.35);
+  background-color: #1d3557;
+  text-align: center;
+  transition: all 0.15s;
+}
+
+.button:hover {
+  text-shadow: 0 0 2em rgba(255, 255, 255, 1);
+  color: #1d3557;
+  border-color: #f1faee;
+  background-color: #457b9d;
+}
+
+#namelabel {
+  font-weight: 800;
+}
+
+#name {
+  width: 500px;
+}
+
+hr {
+  border: 4px solid #a8dadc;
+}
+/* Table Styling */
+#log {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#log td,
+#log th {
+  border: 1px solid #457b9d;
+  padding: 8px;
+}
+
+#log td {
+  font-weight: lighter;
+}
+
+#log tr:nth-child(even) {
+  background-color: #a8dadc;
+}
+
+#log tr:hover {
+  background-color: #ddd;
+}
+
+#log th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1d3557;
+  color: #f1faee;
+}
+
+#xout {
+  float: left;
+}
